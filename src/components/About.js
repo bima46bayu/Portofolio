@@ -99,7 +99,7 @@ const About = () => {
             BIMA BAYU SOFANA
           </h2>
           <p className="text-xl text-gray-600 mb-6">
-            IT Business Development | System Analyst | UI/UX Designer
+            IT Business Development | System Analyst | UI/UX Designer | Software Engineering
           </p>
           <p className="text-lg text-gray-500 max-w-3xl mx-auto">
             I am a student of Software Engineering with a strong interest in IT. My experience includes projects in system analysis, software quality testing, intuitive user interface design, and data processing and analysis. I am detail-oriented, have strong analytical skills, and can quickly adapt to new environments. I am passionate about learning and growing in the tech industry and am eager to contribute positively to any project I am involved in.
@@ -118,9 +118,10 @@ const About = () => {
                   isVisible ? "opacity-100 translate-y-0 scale-100" : "opacity-0 translate-y-10 scale-90"
                 }`}
                 style={{
-                  transitionDelay: "0.2s",
-                  minWidth: "600px",
-                  maxWidth: "800px",
+                    transitionDelay: "0.2s",
+                    minWidth: "360px", // Minimum width for mobile
+                    maxWidth: "800px", // Max width for desktop
+                    width: "100%", // To ensure full width inside container
                 }}
               >
                 <h4 className="text-2xl font-semibold text-gray-700">{edu.title}</h4>

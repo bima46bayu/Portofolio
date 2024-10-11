@@ -9,7 +9,7 @@ const Contact = () => {
         {/* Headline */}
         <h5 className="text-lg text-gray-400">LET'S CONNECT</h5>
         <h1 className="text-4xl md:text-5xl font-bold text-white">
-          Tertarik Bekerja Sama? <span className="text-red-500">Contact Me</span>
+        Interested to Collaborating? <span className="text-red-500">Contact Me</span>
         </h1>
         <p className="text-lg text-gray-300 mt-4">
           I’m open to collaborations and opportunities. Feel free to reach out to me through the contact details below.
@@ -31,7 +31,7 @@ const Contact = () => {
           {/* WhatsApp */}
           <p className="text-lg mb-4">
             <a
-              href="https://wa.me/your-phone-number"
+              href="https://wa.me/62819494610888"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-green-500 transition-colors duration-300"
