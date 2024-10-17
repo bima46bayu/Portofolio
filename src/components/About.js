@@ -15,6 +15,16 @@ const About = () => {
 
   const experienceData = [
     {
+      role: "IT Business Development Intern, PT Pitjarus Teknologi",
+      year: "2024 – Present",
+      tasks: [
+        "Lead a team of analysts and developers to deliver solutions to clients.",
+        "Coordinated with clients to understand business needs and delivered technical solutions.",
+        "Conducted product analysis and defined strategies to meet client requirements.",
+        "Managed relationships with clients and maintained positive ongoing communications.",
+      ],
+    },
+    {
       role: "System Analyst, Senyumin App Project",
       year: "2022 – Present",
       tasks: [
@@ -35,22 +45,12 @@ const About = () => {
       ],
     },
     {
-      role: "Staff, Gelanggang Expo UGM",
+      role: "Staff Acara, Gelanggang Expo UGM",
       year: "2023 – Present",
       tasks: [
         "Designed and executed event concepts from pre-event to post-event.",
         "Responsible for creating all event content and analyzing the website design.",
         "Directly executed event content during the actual event.",
-      ],
-    },
-    {
-      role: "IT Business Development Intern, PT Pitjarus Teknologi",
-      year: "2024 – Present",
-      tasks: [
-        "Lead a team of analysts and developers to deliver solutions to clients.",
-        "Coordinated with clients to understand business needs and delivered technical solutions.",
-        "Conducted product analysis and defined strategies to meet client requirements.",
-        "Managed relationships with clients and maintained positive ongoing communications.",
       ],
     },
   ];
